@@ -1,1 +1,7 @@
-test
+WindowsのtortoizeGITでgithubを利用する
+  1.path\to\TortoiseGit\bin\puttygen.exeを起動。
+  2.GIT BASHで作成済みのpath\to\User\.ssh\id_rsaをFile>Load private keyで読み込ませる。
+  3.Save private keyボタン押してppkファイルを保存する。
+  4.path\to\TortoiseGit\bin\pageant.exeを起動。
+  5.タスクトレイに出てきたアイコンを右クリックしてAdd Keyでppkファイルを追加する。
+  6.以上でTortoizeGitでgithubを利用できるようになる。
